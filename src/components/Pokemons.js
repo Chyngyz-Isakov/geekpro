@@ -33,7 +33,7 @@ const Pokemons = () => {
             <div className="row">
                 {data.map((pokemon, index) => (
                     <div key={index} className="col-md-3 col-xl-2 col-lg-3 mb-3">
-                        <div className="pokemon-card">
+                        <div className="pokemon-card card-bg">
                             <div className="card-body">
                                 <p className="card-text text-center text-capitalize">{pokemon.name}</p>
                             </div>

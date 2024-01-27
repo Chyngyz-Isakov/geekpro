@@ -27,3 +27,7 @@
     height: 100px;
     margin-bottom: 10px;
 }
+
+.card-bg {
+    background: aqua;
+}
