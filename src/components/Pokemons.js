@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
@@ -37,7 +37,7 @@ const Pokemons = () => {
                             <div className="card-body">
                                 <p className="card-text text-center text-capitalize">{pokemon.name}</p>
                             </div>
-                            <img src={pokemon.imageUrl} className="card-img-bottom" alt={pokemon.name} />
+                            <img src={pokemon.imageUrl} className="card-img-bottom" alt={pokemon.name}/>
                         </div>
                     </div>
                 ))}
